@@ -1969,7 +1969,6 @@ hr {
 }
 
 .privacy .privacy-nav {
-  position: -webkit-sticky;
   position: sticky;
   top: 15px;
   background: #fafafa;

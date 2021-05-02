@@ -1,12 +1,25 @@
 {
-  "name": "themefisher-theme-kit",
+  "name": "ranked-seo-rank-tracker",
   "version": "1.1.0",
-  "description": "Gulp environment for running HTML themes by themefisher",
+  "description": "ranKED is a SaaS (Software as a Service) that automates the SEO tasks by tracking the ranks of the targeted keywords of your websites across different search engines and regions to help create SEO strategies and better target the audience and viewers.",
   "keywords": [
-    "gulp",
-    "frontend"
+    "seo rank tracker",
+    "seo keywords rank tracker",
+    "seo backlinks",
+    "track website rank",
+    "seo checker",
+    "check website ranks",
+    "seo rank tracker google free",
+    "serp tracker free",
+    "serp mojo",
+    "rankz",
+    "moz",
+    "semrush",
+    "neil patel",
+    "rankranger",
+    "whatsmyserp"
   ],
-  "author": "Themefisher",
+  "author": "Codingee",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.24.5",
