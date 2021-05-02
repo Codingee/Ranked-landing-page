@@ -15,7 +15,7 @@ var deploy = require('gulp-gh-pages');
     return gulp.src("./theme/**/*")
       .pipe(deploy({ 
         remoteUrl: "https://github.com/Codingee/Ranked-landing-page.git",
-        branch: "prod2"
+        branch: "prod"
       }))
   });
 
