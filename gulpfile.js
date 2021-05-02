@@ -8,6 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var runSequence  = require('run-sequence');
 var bs           = require('browser-sync').create();
 var rimraf       = require('rimraf');
+var deploy = require('gulp-gh-pages');
 
 var path = {
   src: {
@@ -117,6 +118,14 @@ gulp.task('build', function () {
       });
     }
   );
+});
+
+gulp.task('deploy', function () {
+  return gulp.src("./prod/**/*")
+    .pipe(deploy({ 
+      remoteUrl: "https://github.com/Codingee/Ranked-landing-page.github.io.git",
+      branch: "prod"
+    }))
 });
 
 gulp.task("default", ["build"]);
