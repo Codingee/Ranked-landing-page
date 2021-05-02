@@ -9,6 +9,16 @@ var runSequence  = require('run-sequence');
 var bs           = require('browser-sync').create();
 var rimraf       = require('rimraf');
 
+var deploy = require('gulp-gh-pages');
+
+  gulp.task('deploy', function () {
+    return gulp.src("./theme/**/*")
+      .pipe(deploy({ 
+        remoteUrl: "https://github.com/Codingee/Ranked-landing-page.git",
+        branch: "prod2"
+      }))
+  });
+
 var path = {
   src: {
     html    : 'source/*.html',
