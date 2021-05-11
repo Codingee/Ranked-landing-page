@@ -26,10 +26,10 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Bootstrap App Landing Template">
+  <meta name="description" content="Make sure your websites and blogs remain at the top of Google Search. Easily keep track of the rankings of your website with ranKED - SEO Keyword Rank Tracker">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Small Apps Template v1.0">
+  <meta name="author" content="Codingee">
+  <meta name="generator" content="Codingee">
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
@@ -589,6 +589,30 @@ FACEBOOK: https://www.facebook.com/themefisher
   <script src="plugins/google-map/gmap.js"></script> -->
   
   <script src="js/script.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBxduvOQ-15q5e3KSuF0KZ4RFJK_VYYV0Y",
+    authDomain: "codingee-tracker.firebaseapp.com",
+    projectId: "codingee-tracker",
+    storageBucket: "codingee-tracker.appspot.com",
+    messagingSenderId: "901774275432",
+    appId: "1:901774275432:web:4c74b6821630539f0d5cdd",
+    measurementId: "G-PHQT3L6M4P"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 
 </html>
